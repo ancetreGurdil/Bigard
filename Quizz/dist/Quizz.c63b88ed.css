@@ -1,0 +1,102 @@
+@font-face
+{
+    font-family: 'Quizz';
+    src: url('/horseshoes.6ee75030.ttf') format('truetype');
+    src: url('/horseshoes.229fed16.otf') format('opentype'),
+         url('/horseshoeslemonade.007d7bf9.otf') format('opentype'),
+         url('/horseshoeslemonade.5777640c.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    
+    
+}
+header
+{
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    border-bottom: solid 2px black;  
+}
+
+#logo img
+{
+    margin-top: 1%;
+    width: 100px;
+    height: 100px;
+}
+
+header h1 {
+    font-family: 'Quizz', 'serif';
+    font-weight: 5em;
+    text-align: center;
+    margin-left: 43%;
+    margin-top: 2%;
+    color: white;
+}
+
+#logo-v2 img{
+    margin-top: 1%;
+    margin-left: 830%;
+    width: 100px;
+    height: 100px;
+}
+
+section {
+    background-color: #bbbbbb;
+}
+section h2 {
+    text-align: center;
+}
+
+
+.Questions {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 5%;
+    
+}
+
+.FACILE {
+    background-color: rgb(0, 255, 0);
+    border: solid 1px black;
+    margin-top: 1%;
+    padding: 2.5% 10% 2.5% 10%;
+}
+
+.MOYEN {
+    background-color: rgb(255, 255, 0);
+    border: solid 1px black;
+    margin-top: 1%;
+    padding: 2.5% 10% 2.5% 10%;
+}
+
+.DIFFICILE {
+    border: solid 1px black;
+    background-color: rgb(255, 0, 0);
+    margin: 1% 0% 2% 0%;
+    padding: 2.5% 10% 2.5% 10%;
+}
+.texteDificulté {
+    top: 10%;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #111111;
+    color: white;
+    padding-bottom: 7.7%;
+}
+
+/* Clement 2 */
+
+/*# sourceMappingURL=/Quizz.c63b88ed.css.map */

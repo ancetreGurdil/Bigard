@@ -1,26 +1,12 @@
-
 {
-
-  {
-      "question" : "Q1: … ?",
-      
-      "choices" : [
-                      "Choix_1",
-                      "Choix_2",
-                      "Choix_3"
-                  ],
-      "correct" : "Choix_1",
-      "explanation ": "explication"
+    "name": "Quizz",
+    "version": "1.0.0",
+    "description": "",
+    "main": "WORD.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
   }
-  {
-      "question" : "Q2...?",
-      
-      "choices" : [
-              "Choix_1",
-              "Choix_2",
-              "Choix_3"
-                  ],
-       "correct" : "Choix_1",
-       "explanation" : "explication",
-  }
-}
+  

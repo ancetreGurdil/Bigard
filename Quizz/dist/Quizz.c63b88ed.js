@@ -117,7 +117,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"C:/Users/PERDRIX/AppData/Roaming/npm/node_modules/parcel/src/builtins/bundle-url.js":[function(require,module,exports) {
+})({"../../../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -149,7 +149,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],"C:/Users/PERDRIX/AppData/Roaming/npm/node_modules/parcel/src/builtins/css-loader.js":[function(require,module,exports) {
+},{}],"../../../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/css-loader.js":[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -184,12 +184,12 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"C:/Users/PERDRIX/AppData/Roaming/npm/node_modules/parcel/src/builtins/bundle-url.js"}],"Quizz.css":[function(require,module,exports) {
+},{"./bundle-url":"../../../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/bundle-url.js"}],"Quizz.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./Police\\horseshoes.ttf":[["horseshoes.6ee75030.ttf","Police/horseshoes.ttf"],"Police/horseshoes.ttf"],"./Police\\horseshoes.otf":[["horseshoes.229fed16.otf","Police/horseshoes.otf"],"Police/horseshoes.otf"],"./Police\\horseshoeslemonade.otf":[["horseshoeslemonade.007d7bf9.otf","Police/horseshoeslemonade.otf"],"Police/horseshoeslemonade.otf"],"./Police\\horseshoeslemonade.ttf":[["horseshoeslemonade.5777640c.ttf","Police/horseshoeslemonade.ttf"],"Police/horseshoeslemonade.ttf"],"_css_loader":"C:/Users/PERDRIX/AppData/Roaming/npm/node_modules/parcel/src/builtins/css-loader.js"}],"C:/Users/PERDRIX/AppData/Roaming/npm/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"_css_loader":"../../../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/css-loader.js"}],"../../../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50525" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56408" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -393,5 +393,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["C:/Users/PERDRIX/AppData/Roaming/npm/node_modules/parcel/src/builtins/hmr-runtime.js"], null)
+},{}]},{},["../../../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/hmr-runtime.js"], null)
 //# sourceMappingURL=/Quizz.c63b88ed.js.map

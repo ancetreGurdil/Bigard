@@ -123,7 +123,7 @@ fetch("package.json").then(function (response) {
 }).then(function (data) {
   console.log(data.name);
 });
-},{}],"C:/Users/PERDRIX/AppData/Roaming/npm/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{}],"../../../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -151,7 +151,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50525" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56408" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -327,5 +327,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["C:/Users/PERDRIX/AppData/Roaming/npm/node_modules/parcel/src/builtins/hmr-runtime.js","Quizz.js"], null)
+},{}]},{},["../../../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/hmr-runtime.js","Quizz.js"], null)
 //# sourceMappingURL=/Quizz.439c6ff0.js.map

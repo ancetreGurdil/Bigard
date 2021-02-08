@@ -1,0 +1,40 @@
+{
+  "nbQuestion" : 5,
+  "theme" :  {"divertissement" :
+    {
+    "questions" : {
+
+     "question1" :
+      {
+        "demande" : "Quelle est la couleur du cheval d'Henry I ?",
+        "réponse" : ["bleu","vert","blanc","rouge","orange"],
+        "vrai_réponse": "bleu"
+      },
+      "question2" :
+       {
+         "demande" : "Quelle est la couleur du cheval d'Henry I ?",
+         "réponse" : ["bleu","vert","blanc","orange"],
+         "vrai_réponse": "blanc"
+       },
+       "question3" :
+        {
+          "demande" : "Quelle est la couleur du cheval d'Henry I ?",
+          "réponse" : ["bleu","vert","blanc","rouge","orange"],
+          "vrai_réponse": "rouge"
+        },
+        "question4" :
+         {
+           "demande" : "Quelle est la couleur du cheval d'Henry I ?",
+           "réponse" : ["bleu","vert","blanc","rouge","orange"],
+           "vrai_réponse": "vert"
+         },
+         "question5" :
+          {
+            "demande" : "Quelle est la couleur du cheval d'Henry I ?",
+            "réponse" : ["bleu","vert","blanc","rouge","orange"],
+            "vrai_réponse": "orange"
+          },
+  }
+}
+}
+}
